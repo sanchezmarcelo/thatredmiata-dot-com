@@ -1,0 +1,212 @@
+.navbar{
+    background-color: #232323;
+
+}
+
+
+.nav-link-text{
+    color: white;
+}
+
+html, head{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+body{
+    
+}
+
+
+.parallax{
+    padding-top: 850px;
+    background-image: url(1.jpg);
+    height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.textBlock{
+    color: black;
+    height: 1000px;
+    background-position: center;
+    background-color: white;
+
+}
+
+.textBanner{
+    background-color: black;
+    background-image: url(missionStatement.png);
+
+    height: 500px;
+    background-attachment: scroll;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+.textUnderBanner{
+    text-align: left;
+    font-size: 36px;
+    background-color: black;
+    color: white;
+    height: 400px;
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-top: 80px;
+    padding-bottom: 10px;
+    
+ 
+}
+
+.modelBanner{
+    height: 60%;
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(3dmodelBanner.png);
+  
+}
+
+footer{
+   
+    background-color: black;
+    position: relative;
+    overflow: auto;
+    margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+.contactFormDiv{
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-top: 80px;
+    padding-bottom: 10px;
+}
+
+.shop{
+    text-align: center;
+    background-position: center;
+}
+
+.signIn{
+    box-sizing: content-box;
+    align-items: center;
+    justify-content: left;
+    text-align: center;
+    width: 25%;
+    height: 50%;
+    max-height: 420px;
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    top: 0px; left: 0px; bottom: 0px; right: 0px;
+    border: 1.5px solid black;
+    background-color: black;
+    opacity: 0.85;
+    color: white;
+
+    /*uncomment to align sign in menu left*/
+    margin-left: 10%;
+}
+
+.signUp{
+    box-sizing: content-box;
+    align-items: center;
+    justify-content: left;
+    text-align: center;
+    width: 25%;
+    height: 50%;
+    max-height: 360px;
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    top: 0px; left: 0px; bottom: 0px; right: 0px;
+    border: 1.5px solid black;
+    background-color: black;
+    opacity: 0.85;
+    color: white;
+
+    /*uncomment to align sign in menu left*/
+   
+}
+
+.signInTitle{
+    padding-top: 5px;
+}
+
+.bod{
+    
+    /*uncomment to use miata cropped to the right background*/
+    background-image: url(5.jpg);
+    /* background-image: url(1.jpg); */
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.formSignIn{
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+       
+}
+
+.formControl{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+input[type="checkbox"]{
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.btn{
+    text-align: center;
+    
+}
+
+.rememberMe{
+    padding-bottom: 5px;
+    padding-top: 8px;
+}
+
+.btn-block{
+    display: block;
+    color: black;
+    border: red;
+    background-color: #cc2222;
+    width: 100%;
+   
+}
+
+.btn-block:hover{
+    background-color: red;
+    color: black;
+}
+
+.signInTitle{
+    font-size: 26px;
+}
+

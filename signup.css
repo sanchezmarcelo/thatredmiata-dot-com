@@ -1,0 +1,66 @@
+.signUp{
+    box-sizing: content-box;
+    align-items: center;
+    justify-content: left;
+    text-align: center;
+    width: 25%;
+    height: 50%;
+    max-height: 360px;
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    top: 0px; left: 0px; bottom: 0px; right: 0px;
+    border: 1.5px solid black;
+    background-color: black;
+    opacity: 0.85;
+    color: white;
+
+    /*uncomment to align sign in menu left*/
+   
+}
+
+.formSignUp{
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+       
+}
+
+.formControl{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+.btn{
+    text-align: center;
+    
+}
+
+.rememberMe{
+    padding-bottom: 5px;
+    padding-top: 8px;
+}
+
+.btn-block{
+    display: block;
+    color: black;
+    border: red;
+    background-color: #cc2222;
+    width: 100%;
+   
+}
+
+.btn-block:hover{
+    background-color: red;
+    color: black;
+}
+
+.signUpTitle{
+    font-size: 26px;
+}
